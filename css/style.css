@@ -1,0 +1,58 @@
+.slideshow img{
+	width: 100%;
+	max-height: 400px;
+	min-height: 150px;
+}
+.photo img{
+	margin-bottom: 20px;
+}
+.photo img:hover{
+	opacity: 0.9;
+	border-radius: 20px;
+	transition: 1s;
+	outline: 2px solid black;
+	box-shadow: 10px 10px 7px gray;
+}
+.human{
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	transform: translate(90%, -40%);
+
+}
+
+.login-form{
+	background-color: black;
+	color: white;
+	transform: translateX(400px);
+	padding: 10px;
+}
+.login-form h2{
+	text-align: center;
+	margin-top: -10%;
+}
+.login-form label{
+	font-size: 1.2em;
+}
+.login-form input[type="text"],input[type="password"]{
+	margin: 10px 0;
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	color: white;
+	font-size: 1.1em;
+}
+.btn-login{
+	border: none;
+	outline: none;
+	border-radius: 20px;
+	background-color: red;
+	font-size: 1.5em;
+	margin-top: 30px;
+
+}
+.btn-login:hover{
+	cursor: pointer;
+	background-color: yellow;
+}
